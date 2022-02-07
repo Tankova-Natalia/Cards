@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;200;300;400&display=swap');
+body{
+    font-family: 'Noto Sans Display', sans-serif;
+}
+.card {
+    margin: 10px;
+    background-color: lightgray;
+    box-shadow: 0px 5px 5px gray;
+    width: 100px;
+    higth: 120px;
+}
+#card1{
+    float: left;
+    position: relative;
+    right: -120px;
+}
+#card2{
+    float: left;
+    position: relative;
+    right: -120px;
+}
+#card3{
+    float: left;
+    position: relative;
+    right: 240px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    font-size: 72px; 
+    text-align: center;
+}
+.description{
+    height: 20px;
+}
+#card1 .image{
+    background-color: lightseagreen;
+    color: black;
+}
+#card2 .image{
+    background-color: gold;
+    color: white;
+}
+#card3 .image{
+    background-color:  limegreen;
+    color: white ;
+}
+.turn{
+	position: absolute;
+        top: 90px;
+        left: 70px;
+        background-color: dodgerblue;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-image: url(https://cdn1.iconfinder.com/data/icons/outlined-arrows/100/OutlineTurnArrowDown-512.png);
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+    box-shadow: 0px 5px 5px gray;
+}
